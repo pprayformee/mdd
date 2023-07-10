@@ -1,0 +1,54 @@
+.list-button {
+    display: flex;
+    margin-bottom: 40px;
+    margin-right: auto;
+
+    @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+        gap: 8px;
+        row-gap: 15px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-bottom: 40px;
+        width: 558px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+        justify-content: center;
+        margin-bottom: 34px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.list-button .list-button__item+.list-button__item {
+    margin-left: 8px;
+}
+
+.list-button__button .list-button__button--btn {
+    padding: 6px 25px;
+}
+
+.list-button__button {
+    border: none;
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: var(--gray-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    padding: 6px 22px;
+    transition: color var(--animation), background-color var(--animation);
+    
+    &:hover,
+    &:focus {
+        color: var(--white-color);
+        background-color: var(--acent-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}

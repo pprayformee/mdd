@@ -1,0 +1,39 @@
+// utils styles
+@import "./utils/vars";
+@import "./utils/visually-hiden";
+
+// base styles
+@import "./base/reset";
+@import "./base/base";
+@import "./base/container";
+
+// layouts styles
+@import "./layouts/navigation";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/section-two-criteria";
+@import "./layouts/section-three-examples";
+@import "./layouts/section-four-team";
+@import "./layouts/section-five-clients";
+@import "./layouts/footer";
+@import "./layouts/adress";
+@import "./layouts/footer-social";
+@import "./layouts/footer-form";
+@import "./layouts/modal-window";
+
+// portfolio
+@import "./layouts/navigation-portfolio";
+@import "./layouts/section";
+@import "./layouts/list-project";
+
+// components styles
+@import "./components/logo";
+@import "./components/button";
+@import "./components/title";
+@import "./components/social";
+@import "./components/menu";
+
+// portfolio
+@import "./components/header-line";
+@import "./components/list-button";
+@import "./components/menu-portfolio";

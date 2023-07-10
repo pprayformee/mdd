@@ -1,0 +1,33 @@
+.logo {
+    color: var(--acent-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.16;
+
+    &__dark {
+        color: var(--black-color);
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+}
+
+.header__logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.logo__light {
+    color: var(--white-color);
+}

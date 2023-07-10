@@ -1,0 +1,109 @@
+.section-four {
+    background-color: var(--gray-color);
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
+}
+
+.section-four__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.16;
+        margin-bottom: 50px;
+    }
+}
+
+.team-list {
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.team-list__images {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.team-list__item {
+    background-color: var(--white-color);
+    /*width: 450px;*/
+    /*height: 622px;*/
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-list__item:not(:last-child) {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
+}
+
+.team-list__item {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        flex-basis: calc((100% - 1 * 30px) / 2);
+        height: 563px;
+    }
+}
+
+ .team-list__item {
+     @media screen and (min-width: 1200px) {
+         flex-basis: calc((100% - 1 * 30px) / 4);
+         height: 428px;
+     }
+ }
+
+.team-list__container {
+    padding-top: 30px;
+    padding-bottom: 24px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.team-list__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.team-list__text {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 16px;
+}

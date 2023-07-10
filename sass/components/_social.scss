@@ -1,0 +1,27 @@
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list .social-list__item+.social-list__item {
+    margin-left: 10px;
+}
+
+.social-list__link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--white-color);
+    fill: #AFB1B8;
+    transition: fill var(--animation), background-color var(--animation);
+    
+    &:hover,
+    &:focus {
+        background-color: var(--acent-color);
+        fill: var(--white-color);
+    }
+}
