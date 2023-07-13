@@ -65,7 +65,7 @@
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: var(--acent-color);
     }
 }
 
@@ -73,7 +73,7 @@
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         content: "";
         display: block;
-        border-bottom: 4px solid rgba(33, 150, 243, 1);
+        border-bottom: 4px var(--secondary-blue);
         width: 100%;
         border-radius: 2px;
         position: absolute;
@@ -83,7 +83,7 @@
     @media screen and (min-width: 1200px) {
          content: "";
          display: block;
-         border-bottom: 4px solid rgba(33, 150, 243, 1);
+         border-bottom: 4px solid #00008e;
          width: 100%;
          border-radius: 2px;
          position: absolute;
@@ -92,7 +92,7 @@
 }
 
 .nav__link--portfolio-cont {
-    color: var(--primary-color);
+    color: var(--secondary-blue);
     font-weight: 500;
     font-size: var(--text-size);
     line-height: 1.14;

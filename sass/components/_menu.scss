@@ -47,7 +47,7 @@
 
     &:hover,
     &:focus {
-        fill: var(--accent-color);
+        fill: #dd2031;
     }
 }
 
@@ -67,13 +67,13 @@
 
 .mobile-menu__link--studio {
     display: inline-block;
-    color: #2196F3;
+    color: #dd2031;
     text-decoration: none;
     transition: color var(--animation);
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: var(--acent-color);
     }
 }
 
@@ -81,22 +81,22 @@
     display: inline-block;
     color: var(--primari-color);
     text-decoration: none;
-    transition: color var(--accent-color);
+    transition: color var(--acent-color);
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: var(--acent-color);
     }
 }
 
 .mobile-menu__link--cont {
     color: var(--primari-color);
     text-decoration: none;
-    transition: color var(--accent-color);
+    transition: color var(--acent-color);
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: var(--acent-color);
     }
 }
 
@@ -112,13 +112,13 @@
     display: inline-block;
     font-size: 34px;
     line-height: 1.17;
-    color: #2196F3;
+    color: #dd2031;
     text-decoration: none;
     transition: color var(--animation);
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: #dd2031;
     }
 }
 
@@ -131,7 +131,7 @@
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: #dd2031;
     }
 }
 
@@ -151,7 +151,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
-    color: #2196F3;
+    color: var(--acent-color);
     text-decoration: none;
     transition: color var(--animation);
 }

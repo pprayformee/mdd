@@ -59,7 +59,7 @@
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: var(--acent-color);
     }
 
     @media screen and (min-width: 1200px) {
@@ -90,7 +90,7 @@
 
     &:hover,
     &:focus {
-        fill: var(--acent-color);
+        fill: var(--accent-color);
     }
 }
 

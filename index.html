@@ -16,22 +16,24 @@
     <header class="header">
       <div class="container-header">
         <nav class="nav">
-            <a  class="logo header__logo" href="">Web<span class="logo__dark">Studio</span></a>
+            <svg class="logo-container logo" width="120px" height="110px">
+              <use href="./img/svg/logo.svg#logo"></use>
+            </svg>
             <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link nav__link--studio" href="./index.html">Студія</a></li>
-                <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="./portfolio.html">Портфоліо</a></li>
-                <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="">Контакти</a></li>
+              <li class="nav__item"><a class="nav__link nav__link--studio" href="./index.html">ABOUT US</a></li>
+              <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="./portfolio.html">PORTFOLIO</a></li>
+              <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="">CONTACTS</a></li>
             </ul>
         </nav>
         <ul class="header__contacts">
-            <li class="header__item"><a href="mailto:info@devstudio.com" class="header__link header__link--mail">
+            <li class="header__item"><a href="mailto:info@mddengineers.com" class="header__link header__link--mail">
               <svg class="header__envelope" width="16px" height="12px">
                 <use href="./img/svg/icons.svg#mail"></use>
-            </svg>info@devstudio.com</a></li>
-            <li class="header__item"><a href="tel:+380961111111" class="header__link header__link--tel">
+            </svg>info@mddengineers.com</a></li>
+            <li class="header__item"><a href="tel:+971567703111" class="header__link header__link--tel">
               <svg class="header__smartphone" width="10px" height="16px">
                 <use href="./img/svg/icons.svg#phone"></use>
-            </svg>+38 096 111 11 11</a></li>
+            </svg>+971 56 770 3111</a></li>
         </ul>
         <div>
           <button class="menu-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
@@ -45,8 +47,8 @@
     <main>
         <section class="hero hero--section">
           <div>
-            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
+            <h1 class="hero__title">Engineering Consultancy & Interior Design</h1>
+            <button class="hero__button" type="button" data-modal-open>Contact Us</button>
           </div>
         </section>
         <section class="section-two">
@@ -56,45 +58,45 @@
                 <li class="criteria-list__item ">
                   <div class="criteria-list__container btn">
                       <svg class="btn-icon" width="70px" height="70px">
-                        <use href="./img/svg/icons.svg#antenna"></use>
+                        <use href="./img/svg/section-two.svg#att"></use>
                       </svg>
                   </div>
-                    <h3 class="title criteria-list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="criteria-list__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="title criteria-list__title">DETAILS</h3>
+                    <p class="criteria-list__text">Personalized approach to design.</p>
                 </li>
                 <li class="criteria-list__item">
                   <div class="criteria-list__container btn">
                       <svg class="btn-icon" width="70px" height="70px">
-                        <use href="./img/svg/icons.svg#clock"></use>
+                        <use href="./img/svg/section-two.svg#pun"></use>
                       </svg>
                   </div>
-                    <h3 class="title criteria-list__title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="criteria-list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="title criteria-list__title">PUNCTUALITY</h3>
+                    <p class="criteria-list__text">Punctuality in perfomance of work</p>
                 </li>
                 <li class="criteria-list__item">
                   <div class="criteria-list__container btn">
                       <svg class="btn-icon" width="70px" height="70px">
-                        <use href="./img/svg/icons.svg#diagrama"></use>
+                        <use href="./img/svg/section-two.svg#plan"></use>
                       </svg>
                   </div>
-                    <h3 class="title criteria-list__title">ПЛАНУВАННЯ</h3>
-                    <p class="criteria-list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="title criteria-list__title">PLANNING</h3>
+                    <p class="criteria-list__text">Project planning from design to construction.</p>
                 </li>
                 <li class="criteria-list__item">
                   <div class="criteria-list__container btn">
                       <svg class="btn-icon" width="70px" height="70px">
-                        <use href="./img/svg/icons.svg#astronaut"></use>
+                        <use href="./img/svg/section-two.svg#tech"></use>
                       </svg>
                   </div>
-                    <h3 class="title criteria-list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="criteria-list__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="title criteria-list__title">MODERN TECHNOLOGY</h3>
+                    <p class="criteria-list__text">Modern techmologies are an important component in design.</p>
                 </li>
             </ul>
           </div>
         </section>
         <section class="section-three">
           <div class="container">
-            <h2 class="title section-three__title">Чим ми займаємося</h2>
+            <h2 class="title section-three__title">Our Work</h2>
             <ul class="examples-list">
                 <li class="examples-list__item">
                   <div class="examples-list__container">
@@ -107,7 +109,7 @@
                       class="examples-list__img">
                     <!--<img src="./img/images/comp.jpg" alt="img" width="370" class="examples-list__img">-->
                     <div class="examples-list__label">
-                      <p class="examples-list__text">Десктопні додатки</p>
+                      <p class="examples-list__text">Home design</p>
                     </div>
                   </div>
                 </li>
@@ -122,7 +124,7 @@
                       class="examples-list__img">
                     <!--<img src="./img/images/tel.jpg" alt="img" width="370" class="examples-list__img">-->
                     <div class="examples-list__label">
-                      <p class="examples-list__text">Мобільні додатки</p> 
+                      <p class="examples-list__text">Construction</p> 
                     </div>
                   </div>
                 </li>
@@ -137,7 +139,7 @@
                       class="examples-list__img">
                     <!--<img src="./img/images/mous.jpg" alt="img" width="370" class="examples-list__img">-->
                     <div class="examples-list__label">
-                      <p class="examples-list__text">Дизайнерські рішення</p>
+                      <p class="examples-list__text">Design solutions</p>
                     </div>
                   </div>
                 </li>
@@ -146,7 +148,7 @@
         </section>
         <section class="section-four">
           <div class="container">
-            <h2 class="title section-four__title">Наша команда</h2>
+            <h2 class="title section-four__title">Our Team</h2>
             <ul class="team-list">
                 <li class="team-list__item">
                     <!--<img src="./img/images/ihor.jpg" alt="img" width="270" height="260" class="imges">-->
@@ -162,8 +164,8 @@
                                 alt="designer"
                                 class="team-list__images">
                     <div class="team-list__container">
-                       <h3 class="title team-list__title">Ігор Дем'яненко</h3>
-                    <p lang="en" class="team-list__text">Product Designer</p>
+                       <h3 class="title team-list__title">Yahia Jamal</h3>
+                    <p lang="en" class="team-list__text">CEO of everything</p>
                     <ul class="social-list">
                       <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -210,8 +212,8 @@
                           alt="Developer" 
                           class="team-list__images">
                     <div class="team-list__container">
-                      <h3 class="title team-list__title">Ольга Рєпіна</h3>
-                    <p lang="en" class="team-list__text">Frontend Developer</p>
+                      <h3 class="title team-list__title">Hadeel</h3>
+                    <p lang="en" class="team-list__text">Engineer</p>
                     <ul class="social-list">
                       <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -258,8 +260,8 @@
                       alt="Marketing" 
                       class="team-list__images">
                     <div class="team-list__container">
-                      <h3 class="title team-list__title">Микола Тарасов</h3>
-                    <p lang="en" class="team-list__text">Marketing</p>
+                      <h3 class="title team-list__title">Tariq Rabah</h3>
+                    <p lang="en" class="team-list__text">Jacket controll</p>
                     <ul class="social-list">
                       <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -306,8 +308,8 @@
                       alt="designer" 
                       class="team-list__images">
                     <div class="team-list__container">
-                      <h3 class="title team-list__title">Михайло Єрмаков</h3>
-                    <p lang="en" class="team-list__text">UI Designer</p>
+                      <h3 class="title team-list__title">Jiana</h3>
+                    <p lang="en" class="team-list__text">Engineer</p>
                     <ul class="social-list">
                       <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -345,7 +347,7 @@
         </section>
         <section class="section-five">
           <div class="container">
-            <h2 class="title section-five__title">Постійні клієнти</h2>
+            <h2 class="title section-five__title">Our Clients</h2>
             <ul class="clients-list">
               <li class="clients-list__item">
                 <a href="" class="clients-list__link">
@@ -396,22 +398,21 @@
     <footer class="footer">
       <div class="container container--line">
           <div class="footer__container">
-            <a href="" class="logo footer__logo">Web<span class="logo__light">Studio</span></a>
             <address class="adress">
               <ul class="adress__list">
-                <li class="adress__item"><a href="https://binged.it/3bQ6mAX" target="_blank" rel="noopener noreferrer"
-                    class="address_maps">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="adress__item"><a href="mailto:info@devstudio.com" class="address__mailto-tel">info@devstudio.com</a>
+                <li class="adress__item"><a href="https://bit.ly/mddarchitects" target="_blank" rel="noopener noreferrer"
+                    class="address_maps">Tamouh Tower - Al Reem Island - Tamouh - Abu Dhabi</a></li>
+                <li class="adress__item"><a href="mailto:info@mddengineers.com" class="address__mailto-tel">info@mddengineers.com</a>
                 </li>
-                <li><a href="tel:+380961111111" class="address__mailto-tel">+38 096 111 11 11</a></li>
+                <li><a href="tel:+971567703111" class="address__mailto-tel">+971 56 770 3111</a></li>
               </ul>
             </address>
           </div>
           <div class="footer-social">
-            <strong class="footer-social__text">приєднуйтесь</strong>
+            <strong class="footer-social__text">join us</strong>
             <ul class="footer-social__list">
               <li class="footer-social__item">
-                <a href="" class="footer-social__link">
+                <a href="https://www.instagram.com/mdd.architects/" class="footer-social__link">
                   <svg class="icon-social" width="20px" height="20px">
                     <use href="./img/svg/icons.svg#instagram"></use>
                   </svg>
@@ -432,7 +433,7 @@
                 </a>
               </li>
               <li class="footer-social__item">
-                <a href="" class="footer-social__link">
+                <a href="https://ae.linkedin.com/company/mdd-architects" class="footer-social__link">
                   <svg class="icon-social" width="20px" height="20px">
                     <use href="./img/svg/icons.svg#linkedin"></use>
                   </svg>
@@ -441,13 +442,13 @@
             </ul>
           </div>
       <div class="container-form">
-        <strong class="container-form__text">Підпишіться на розсилку</strong>
+        <strong class="container-form__text">Subscribe us</strong>
         <form class="footer-form">
           <label class="footer-form__label">
             <input class="footer-form__input" type="text" name="name" placeholder="E-mail">
           </label>
           <button class="footer-form__button" type="submit">
-            Підписатися
+            Subscribe
             <svg class="footer-form__icon" width="24" height="24">
               <use href="./img/svg/icons.svg#send"></use>
             </svg>
@@ -466,11 +467,11 @@
         </button>
 
         <form class="register-form" name="register-form">
-          <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
+          <strong class="register-form-title">Leave your contucts</strong>
           <div class="register-form-group" role="group">
 
             <label class="modal-label">
-              <span class="span-modal">Ім'я</span>
+              <span class="span-modal">Name</span>
               <input class="input-modal" type="text" name="name">
               <svg class="icon-modal" width="15" height="15">
                 <use href="./img/svg/icons.svg#person"></use>
@@ -478,7 +479,7 @@
             </label>
 
             <label class="modal-label">
-              <span class="span-modal">Телефон</span>
+              <span class="span-modal">Phone</span>
               <input class="input-modal" type="text" name="phone">
               <svg class="icon-modal" width="15" height="15">
                 <use href="./img/svg/icons.svg#modal-phone"></use>
@@ -486,7 +487,7 @@
             </label>
 
             <label class="modal-label">
-              <span class="span-modal">Пошта</span>
+              <span class="span-modal">E-mail</span>
               <input class="input-modal" type="email" name="mail">
               <svg class="icon-modal" width="16" height="16">
                 <use href="./img/svg/icons.svg#modal-mail"></use>
@@ -494,7 +495,7 @@
             </label>
 
             <label class="modal-label-textarea">
-              <span class="span-modal">Коментар</span>
+              <span class="span-modal">Coment</span>
               <textarea class="textarea-modal" name="text" rows="5" placeholder="Введіть текст"></textarea>
             </label>
           </div>
@@ -506,10 +507,10 @@
                 <use href="img/svg/icons.svg#check"></use>
               </svg>
             </span>
-            <span class="span-modal-checkbox">Погоджуюся з розсилкою та приймаю <a href="" class="link-modal">Умови договору</a></span>
+            <span class="span-modal-checkbox">I agree with the mailing and accept<a href="" class="link-modal">the terms</a></span>
           </label>
 
-          <button class="button-modal" type="submit">Відправити</button>
+          <button class="button-modal" type="submit">Send</button>
           
         </form>
       </div>
@@ -523,26 +524,26 @@
       </button>
       <ul class="mobile-menu">
         <li class="mobile-menu__item">
-          <a href="./index.html" class="mobile-menu__link mobile-menu__link--studio">Студія</a>
+          <a href="./index.html" class="mobile-menu__link mobile-menu__link--studio">STUDIO</a>
         </li>
         <li class="mobile-menu__item">
-          <a href="./portfolio.html" class="mobile-menu__link mobile-menu__link--portfolio">Портфоліо</a>
+          <a href="./portfolio.html" class="mobile-menu__link mobile-menu__link--portfolio">PORTFOLIO</a>
         </li>
         <li class="mobile-menu__item">
-          <a href="" class="mobile-menu__link mobile-menu__link--cont">Контакти</a>
+          <a href="" class="mobile-menu__link mobile-menu__link--cont">CONTACTS</a>
         </li>
       </ul>
       <ul class="mobile-contacts">
         <li class="mobile-contacts__item">
-          <a href="" class="mobile-contacts__link mobile-contacts__link--tel">+38 096 111 11 11</a>
+          <a href="tel:+971567703111" class="mobile-contacts__link mobile-contacts__link--tel">+971 56 770 3111</a>
         </li>
         <li class="mobile-contacts__item">
-          <a href="" class="linkmobile-contacts__link linkmobile-contacts__link--mail">info@devstudio.com</a>
+          <a href="mailto:info@mddengineers.com" class="linkmobile-contacts__link linkmobile-contacts__link--mail">info@mddengineers.com</a>
         </li>
       </ul>
       <ul class="mobile-socials">
         <li class="mobile-socials__item">
-          <a href="" class="mobile-socials__link">Instagram</a>
+          <a href="https://www.instagram.com/mdd.architects/" class="mobile-socials__link">Instagram</a>
         </li>
         <li class="mobile-socials__item">
           <a href="" class="mobile-socials__link">Twitter</a>
@@ -551,7 +552,7 @@
           <a href="" class="mobile-socials__link">Facebook</a>
         </li>
         <li class="mobile-socials__item">
-          <a href="" class="mobile-socials__link">LinkedIn</a>
+          <a href="https://ae.linkedin.com/company/mdd-architects" class="mobile-socials__link">LinkedIn</a>
         </li>
       </ul>
     </div>

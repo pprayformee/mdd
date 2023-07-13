@@ -1,4 +1,4 @@
-.logo {
+/*.logo {
     color: var(--acent-color);
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -20,8 +20,13 @@
     padding-top: 24px;
     padding-bottom: 25px;
     text-decoration: none;
-}
+}*/
 
+.logo-container {
+    position: relative;
+    overflow: hidden;
+}
+/*
 .footer__logo {
     display: block;
     margin-bottom: 20px;
@@ -30,4 +35,4 @@
 
 .logo__light {
     color: var(--white-color);
-}
+}*/

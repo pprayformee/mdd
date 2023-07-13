@@ -61,11 +61,12 @@
     margin-right: auto;
     margin-left: auto;
     color: var(--white-color);
+    font: var(--main-font);
     font-weight: 900;
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-bottom: 30px;
 
     @media screen and (max-width: 767px) {

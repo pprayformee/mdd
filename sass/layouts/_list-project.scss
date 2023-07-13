@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
     padding: 77px 24px;
-    background-color: rgba(33, 150, 243, 0.9);
+    background-color: var(--secondary-blue);
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         padding: 49px 24px 77px 24px;

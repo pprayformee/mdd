@@ -116,7 +116,7 @@
 
     &:hover,
     &:focus {
-        border-color: rgba(33, 150, 243, 1);
+        border-color: var(--acent-color);
     }
 }
 
@@ -214,7 +214,7 @@
 }
 
 .link-modal {
-    color: rgba(33, 150, 243, 1);
+    color: var(--acent-color);
 }
 
 .button-modal {
