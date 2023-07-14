@@ -15,14 +15,14 @@
 <body class="page">
     <header class="header">
       <div class="container-header">
-        <nav class="nav">
+        <nav id="top" class="nav">
             <svg class="logo-container logo" width="120px" height="110px">
               <use href="./img/svg/logo.svg#logo"></use>
             </svg>
             <ul class="nav__list">
               <li class="nav__item"><a class="nav__link nav__link--studio" href="./index.html">ABOUT US</a></li>
               <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="./portfolio.html">PORTFOLIO</a></li>
-              <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="">CONTACTS</a></li>
+              <li class="nav__item"><a class="nav__link nav__link--portfolio-cont" href="#cont">CONTACTS</a></li>
             </ul>
         </nav>
         <ul class="header__contacts">
@@ -404,7 +404,7 @@
                     class="address_maps">Tamouh Tower - Al Reem Island - Tamouh - Abu Dhabi</a></li>
                 <li class="adress__item"><a href="mailto:info@mddengineers.com" class="address__mailto-tel">info@mddengineers.com</a>
                 </li>
-                <li><a href="tel:+971567703111" class="address__mailto-tel">+971 56 770 3111</a></li>
+                <li><a id="cont" href="tel:+971567703111" class="address__mailto-tel">+971 56 770 3111</a></li>
               </ul>
             </address>
           </div>
@@ -455,6 +455,13 @@
           </button>
         </form>
       </div>
+      </div>
+      <div>
+        <a href="#top" title="go up" class="topbutton">
+          <svg width="25px" height="25px">
+            <use class="top-btn" href="./img/svg/icons.svg#botton-up"></use>
+          </svg>
+        </a>
       </div>
     </footer>
     <!--Modal window-->
@@ -507,7 +514,7 @@
                 <use href="img/svg/icons.svg#check"></use>
               </svg>
             </span>
-            <span class="span-modal-checkbox">I agree with the mailing and accept<a href="" class="link-modal">the terms</a></span>
+            <span class="span-modal-checkbox">I agree with the mailing and accept <a href="" class="link-modal">the terms</a></span>
           </label>
 
           <button class="button-modal" type="submit">Send</button>
@@ -530,7 +537,7 @@
           <a href="./portfolio.html" class="mobile-menu__link mobile-menu__link--portfolio">PORTFOLIO</a>
         </li>
         <li class="mobile-menu__item">
-          <a href="" class="mobile-menu__link mobile-menu__link--cont">CONTACTS</a>
+          <a href="#cont" class="mobile-menu__link mobile-menu__link--cont">CONTACTS</a>
         </li>
       </ul>
       <ul class="mobile-contacts">
