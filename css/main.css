@@ -1608,6 +1608,13 @@ input[placeholder] {
     padding-bottom: 25px;
     text-decoration: none;
 }*/
+.logo {
+  fill: var(--acent-color);
+}
+.logo:hover, .logo:focus {
+  fill: var(--secondary-blue);
+}
+
 .logo-container {
   position: relative;
   overflow: hidden;

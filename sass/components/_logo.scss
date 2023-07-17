@@ -22,6 +22,15 @@
     text-decoration: none;
 }*/
 
+.logo {
+    fill: var(--acent-color);
+
+    &:hover,
+    &:focus {
+        fill: var(--secondary-blue);
+    }
+}
+
 .logo-container {
     position: relative;
     overflow: hidden;
