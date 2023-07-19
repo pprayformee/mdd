@@ -1615,6 +1615,13 @@ input[placeholder] {
   fill: var(--secondary-blue);
 }
 
+.logo-footer {
+  fill: var(--white-color);
+}
+.logo-footer:hover, .logo-footer:focus {
+  fill: var(--acent-color);
+}
+
 .logo-container {
   position: relative;
   overflow: hidden;

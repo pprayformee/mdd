@@ -31,10 +31,21 @@
     }
 }
 
+.logo-footer {
+    fill: var(--white-color);
+
+    &:hover,
+    &:focus {
+        fill: var(--acent-color);
+    }
+}
+
 .logo-container {
     position: relative;
     overflow: hidden;
 }
+
+
 /*
 .footer__logo {
     display: block;
